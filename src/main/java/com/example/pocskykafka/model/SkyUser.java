@@ -1,7 +1,7 @@
 package com.example.pocskykafka.model;
 
 public class SkyUser {
-    private String ip;
+    private String ip,country;
 
     public SkyUser() {
     }
@@ -12,5 +12,13 @@ public class SkyUser {
 
     public void setIp(String ip) {
         this.ip = ip;
+    }
+
+    public String getCountry() {
+        return country;
+    }
+
+    public void setCountry(String country) {
+        this.country = country;
     }
 }
