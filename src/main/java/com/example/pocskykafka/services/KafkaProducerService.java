@@ -17,4 +17,7 @@ public class KafkaProducerService {
     public void saveMessageKafkaTail(String topic, String message) {
         kafkaTemplate.send(topic, message);
     }
+    public void readMessageKafkaTail(String topic,Object object) {
+
+    }
 }
